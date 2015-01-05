@@ -1,0 +1,28 @@
+{
+  "name": "happywall",
+  "version": "0.0.1",
+  "description": "A digital version of the happywall",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Saturate/happywall.git"
+  },
+  "keywords": [
+    "happywall",
+    "canvas",
+    "draw"
+  ],
+  "author": "Allan Kimmer Jensen",
+  "license": "none",
+  "bugs": {
+    "url": "https://github.com/Saturate/happywall/issues"
+  },
+  "homepage": "https://github.com/Saturate/happywall",
+  "dependencies": {
+    "express": "^4.10.7",
+    "socket.io": "^1.2.1"
+  }
+}
