@@ -101,7 +101,7 @@ textarea {
 body {
     background: #2A2A28;
     margin: 20px;
-    width: 9000px;
+    width: 3500px;
     color: #fff;
 }
 #happywall {
@@ -130,22 +130,33 @@ body {
     background: #F6C161;
 }
 .ws-4 .wall-plate {
-    background: #F6C161;
+    background: #f0834d;
 }
 .ws-5 .wall-plate {
-    background: #F6C161;
+    background: #ea4e50;
+}
+.ws-6 .wall-plate {
+    background: #996cac;
+}
+.ws-7 .wall-plate {
+    background: #53c1ef;
+}
+.ws-8 .wall-plate {
+    background: #80bf67;
 }
 
 .wall-section {
     float: left;
 }
-.wall-section.first div:nth-child(17n+1) {
+.wall-section.first div:nth-child(17n+1),
+.wall-section.last div:nth-child(17n+1) {
     clear:left;
 }
 .wall-section div:nth-child(18n+1) {
     clear:left;
 }
-.wall-section.first div:nth-child(18n+1) {
+.wall-section.first div:nth-child(18n+1),
+.wall-section.last div:nth-child(18n+1) {
     clear:none;
 }
 

@@ -18,10 +18,25 @@ $(function() {
 	    height: 12,
 	    width: 18,
 	},
-	 {
+	{
 	    color: '#F1E96C',
 	    height: 12,
 	    width: 18,
+	},
+	{
+	    color: '#F1E96C',
+	    height: 12,
+	    width: 18,
+	},
+	{
+	    color: '#F1E96C',
+	    height: 12,
+	    width: 18,
+	},
+	{
+	    color: '#F1E96C',
+	    height: 12,
+	    width: 17,
 	}]
 
 	$.each(flippers, function(index,group) {
