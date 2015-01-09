@@ -56,13 +56,33 @@ $(function() {
 	    }
 	})*/
 
+  var isDown = false;   // Tracks status of mouse button
+
+	$(document).mousedown(function() {
+		isDown = true;      // When mouse goes down, set isDown to true
+	})
+	.mouseup(function() {
+		isDown = false;    // When mouse goes up, set isDown to false
+	});
+
 	$('.wall-plate').on('mousedown', function () {
 	    console.log('hehe', $(this).hasClass('flipped'));
+	    isDown = true; 
 	    if ($(this).hasClass('flipped')) {
 	        $(this).removeClass('flipped');
 	    } else {
 	        $(this).addClass('flipped');
 	    }
+	}).on('mouseup', function () {
+		isDown = false;
+	}).on('mouseover', function () {
+		if(isDown) {        // Only change css if mouse is down
+			if ($(this).hasClass('flipped')) {
+		        $(this).removeClass('flipped');
+		    } else {
+		        $(this).addClass('flipped');
+		    }
+		}
 	});
 
 	$('.js-make-preview').on('mousedown', function () {

@@ -1,6 +1,6 @@
 {
   "name": "happywall",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A digital version of the happywall",
   "main": "index.js",
   "scripts": {
