@@ -11,14 +11,14 @@ This is not optimized in anyway. It's a PoC, with time it will be more polished.
 
 ## Roadmap
 
-# Milestone: Launch
+### Milestone: Launch
 - Copy of the Nyhavn, Denmark wall.
 - Drag to draw
 - live preview
 
-# Milestone: Realtime
+### Milestone: Realtime
 - Realtime shared wall
 - Personal wall (if you don't want others to see/edit your wall)
  
-# Milestone: Social
+### Milestone: Social
 - Share on social media sites.
