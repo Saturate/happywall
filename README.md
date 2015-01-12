@@ -1,7 +1,7 @@
 Happywall
 =========
 
-A digital version of the Happy Wall. [You can view a live verison here.](http://happywall.saturate.dk:3000/)
+A digital version of the Happy Wall. [You can view a live verison here.](http://happywall.saturate.dk/)
 
 ## Getting Started
 Run `node index.js` and goto `localhost:3000`.
